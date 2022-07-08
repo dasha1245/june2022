@@ -1,0 +1,52 @@
+.main{
+    height: 300px;
+    width: 780px;
+    /*background: silver;*/
+
+    box-sizing: border-box;
+    padding-top: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.card1, .card2, .card3{
+    width: 240px;
+
+    border: 2px solid black;
+}
+.heading{
+    padding-top: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    font-family: "Harlow Solid Italic";
+    font-size: 20px;
+}
+
+.text{
+    color: gray;
+
+    display: flex;
+    text-align: center;
+
+}
+
+.botton_text{
+    height: 45px;
+    width: 140px;
+    /*background: aqua;*/
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

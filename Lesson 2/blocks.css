@@ -1,0 +1,46 @@
+.container {
+    width: 500px;
+    height: 600px;
+    background: white;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.widgets{
+    width: 500px;
+    height: 220px;
+    background: rgba(68, 143, 239, 0.93);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.treebox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.big{
+    width: 150px;
+    height: 150px;
+    background: rgba(28, 19, 73, 0.79);
+    margin: 8px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    height: 230px;
+
+    background: rgba(68, 143, 239, 0.93);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: "Roboto Light";
+    color: white;
+}
