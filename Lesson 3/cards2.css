@@ -1,0 +1,60 @@
+.container{
+    width: 600px;
+    height: 550px;
+    position: relative;
+}
+
+.small{
+    width: 600px;
+    height: 250px;
+    background: blueviolet;
+    position: absolute;
+    top: 100px;
+}
+.smt{
+    height: 250px;
+    position: relative;
+}
+.main{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: -123px;
+}
+.target{
+    width: 75px;
+    height: 75px;
+    background: darkblue;
+}
+
+
+.big{
+    width: 100%;
+    background: gray;
+    height: 500px;
+}
+
+.header{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    width: 75px;
+    height: 30px;
+    background: blueviolet;
+    border-radius: 10%;
+}
+
+.menu{
+    font-size: 24px;
+}
+
+
+
