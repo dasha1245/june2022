@@ -1,0 +1,88 @@
+
+.main{
+    width: 800px;
+    height: 400px;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 250px;
+
+    border: 1px solid black;
+
+
+}
+
+h5{
+    font-size: 30px;
+
+    text-align: center;
+    vertical-align: center;
+}
+
+.text{
+text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.button_text{
+    font-size: 18px;
+    font-family: "Rage Italic";
+    text-align: center;
+    vertical-align: center;
+    line-height: 30px;
+}
+
+.mcircle{
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+}
+
+.circle{
+    width: 75px;
+    height: 75px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    position: absolute;
+    top: -38px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-computer{
+    font-size: 25px;
+    color: #1ade5f;
+}
+
+.fa-atom{
+    font-size: 25px;
+    color: #1ade5f;
+}
+
+.fa-martini-glass{
+    font-size: 25px;
+    color: #1ade5f;
+}
