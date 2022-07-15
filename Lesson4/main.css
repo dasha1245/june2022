@@ -1,0 +1,52 @@
+.text{
+    text-align: center;
+    horiz-align: center;
+}
+.container{
+    margin: 0;
+}
+.margin{
+    margin: 4px;
+}
+.a{
+    width: 100%;
+    height: 150px;
+    background: coral;
+    line-height: 150px;
+}
+
+.b{
+    width: 75%;
+    height: 250px;
+    background: crimson;
+    line-height: 250px;
+}
+
+.c{
+    width: 25%;
+    height: 250px;
+    background: darkred;
+    line-height: 250px;
+}
+
+.bc{
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .bc{
+        display: flex;
+        flex-direction: column;
+    }
+    .b{
+        width: 100%;
+        height: 250px;
+    }
+    .c{
+        width: 100%;
+        height: 130px;
+        line-height: 130px;
+    }
+}
