@@ -45,8 +45,14 @@ h5{
     align-items: center;
 }
 
-.botton{
+.button{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.fa-star{
+    font-size: 40px;
+}
+.fa-layer-group{
+    font-size: 40px;
 }
