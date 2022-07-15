@@ -1,13 +1,13 @@
-.body{
+.html, .body{
     margin: 0;
 }
 .text{
     text-align: center;
     horiz-align: center;
 }
-.margin{
-    margin: 5px;
-}
+/*.margin{*/
+/*    margin: 5px;*/
+/*}*/
 
 .a{
     /*width: 100%;*/
@@ -15,12 +15,14 @@
     background: coral;
     line-height: 150px;
     margin-right: 0;
+    margin-bottom: 5px;
 }
 .b{
-    /*width: 100%;*/
+    width: 100%;
     height: 300px;
     background: deeppink;
     line-height: 300px;
+    margin-bottom: 5px;
     margin-right: 5px;
 }
 .box{
@@ -28,16 +30,20 @@
     height: 200px;
     background: crimson;
     line-height: 200px;
+    margin: 1px 1px 0 1px;
+
+
 }
 .cde{
     display: flex;
+
 }
 .f{
     width: 25%;
-    height: 500px;
+    height: 506px;
     background: darkred;
-    line-height: 500px;
-    margin-right: 0;
+    line-height: 506px;
+    margin: 0 0 0 5px;
 
 }
 
@@ -47,6 +53,7 @@
 }
 .bcde{
     width: 75%;
+
 }
 
 
@@ -67,11 +74,11 @@
     }
     .box{
         width: 100%;
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .cde{
-        width: 101%;
+        width: 100%;
         margin-right: 0;
     }
 
@@ -79,5 +86,6 @@
         width: 100%;
         height: 200px;
         line-height: 200px;
+       margin: 5px 10px 0 0;
     }
 }
