@@ -2,17 +2,19 @@
     text-align: center;
     horiz-align: center;
 }
+.body{
+    margin: 0;
+}
 .container{
     margin: 0;
 }
-.margin{
-    margin: 4px;
-}
+
 .a{
     width: 100%;
     height: 150px;
     background: coral;
     line-height: 150px;
+    margin-bottom: 5px;
 }
 
 .b{
@@ -20,6 +22,8 @@
     height: 250px;
     background: crimson;
     line-height: 250px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .c{
