@@ -1,6 +1,6 @@
-.html, .body{
-    margin: 0;
-}
+/*.html, .body{*/
+/*    margin: 0;*/
+/*}*/
 .text{
     text-align: center;
     horiz-align: center;
@@ -42,7 +42,7 @@
     width: 25%;
     height: 506px;
     background: darkred;
-    line-height: 506px;
+    line-height: 500px;
     margin: 0 0 0 5px;
 
 }
