@@ -80,10 +80,10 @@
 
 //Task4
 
-// let firstName = prompt('What is your first name?', );
-// let middleName = prompt('What is your middle name?', );
-// let age = prompt('How old are you?', );
-//
-// console.log(firstName);
-// console.log(middleName);
-// console.log(age);
+let firstName = prompt('What is your first name?', );
+let middleName = prompt('What is your middle name?', );
+let age = +prompt('How old are you?', );
+
+console.log(firstName);
+console.log(middleName);
+console.log(age);
