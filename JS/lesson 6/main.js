@@ -113,7 +113,7 @@ const cards = [
     {cardSuit: 'spades', value: 'Queen', color:'red'  },
 ];
 
-// let filter = cards.filter((item) => item.value === 'Ace');
+// let filter = cards.filter((item) => item.value === 'Ace' && item.cardSuit === 'spades');
 // console.log(filter);
 
 // let filter = cards.filter((item) => item.value === 6);
