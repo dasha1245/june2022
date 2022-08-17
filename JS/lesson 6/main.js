@@ -104,14 +104,14 @@
 //     clubs:[]
 // }
 
-const cards = [
-    {cardSuit: 'hearts', value: 6, color:'black'  },
-    {cardSuit: 'clubs', value: 'Ace', color:'red'  },
-    {cardSuit: 'clubs', value: 9, color:'red' },
-    {cardSuit: 'diamonds', value: 'Ace', color:'black'  },
-    {cardSuit: 'heart', value: 10, color:'black'  },
-    {cardSuit: 'spades', value: 'Queen', color:'red'  },
-];
+// const cards = [
+//     {cardSuit: 'heart', value: 6, color:'black'  },
+//     {cardSuit: 'clubs', value: 'Ace', color:'red'  },
+//     {cardSuit: 'clubs', value: 9, color:'red' },
+//     {cardSuit: 'diamonds', value: 'Ace', color:'black'  },
+//     {cardSuit: 'heart', value: 10, color:'black'  },
+//     {cardSuit: 'spades', value: 'Queen', color:'red'  },
+// ];
 
 // let filter = cards.filter((item) => item.value === 'Ace' && item.cardSuit === 'spades');
 // console.log(filter);
