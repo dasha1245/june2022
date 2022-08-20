@@ -118,7 +118,7 @@ function UserAccount (name){
     this.cards = [];
     this.addCard = function () {
         let numberOfCards = this.cards.length;
-        if(numberOfCards >= 3){
+        if(numberOfCards+1 > 3){
             return console.error(`You have to have no more than 3 cards`)
         } else{
             this.cards.push(userCard(numberOfCards+1))
@@ -132,11 +132,18 @@ function UserAccount (name){
 let user1 = new UserAccount('Bob');
 user1.addCard();
 user1.addCard();
-user1.addCard();
+
+
+
+
 console.log(user1.cards);
 console.log(user1.getCardByKey(1));
 console.log(user1.getCardByKey(2));
 console.log(user1.getCardByKey(3));
+
+
+
+
 
 
 
