@@ -1,0 +1,53 @@
+.border{
+    border: 1px solid black;
+}
+.course{
+    width: 500px;
+    height: 500px;
+    margin: 15px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.title{
+    width: 450px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twoDurations{
+    width: 450px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.monthDur{
+    width: 190px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hourDur{
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modules{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+table, tr, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+
