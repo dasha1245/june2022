@@ -1,13 +1,15 @@
 // Additional lesson 8
 // написати рекурсивну функцію, яка збирає всі назви класів з файлу rules.html в окремий масив. масив вивести в консоль
 let arr = [];
-function findClasses (htmlElement){
-    let children = htmlElement.children;
-    if (children.length !== 0){
+function findClasses (element){
+    if (element.className){
+        for (const classElement of element.className.split(' ')){
+            arr.push(classElement)
+        }
+    }
+    let children = element.children;
+    if (children.length){
         for (const child of children) {
-            if(child.classList.value) {
-                arr.push(child.classList.value)
-            }
             findClasses(child)
         }
     }
