@@ -1,0 +1,81 @@
+/*// Стилизація проєкта -*/
+/*//   index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.*/
+/*//   user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.*/
+/*//   блоки з короткою іфною про post - в ряд по 5 .*/
+/*// post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+/*// Всі елементи котрі характеризують users, posts, comments візуалізувати, так,
+щоб було видно що це блоки (дати фон. марджини і тд)*/
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user{
+    box-sizing: border-box;
+    width: 49%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(139, 0, 0, 0.59);
+    border: 1px solid black;
+    margin: 3px;
+
+}
+.btn1{
+    width: 150px;
+    margin: 10px;
+}
+.divForButton{
+    width: 100%;
+    position: absolute;
+    top: 87%;
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    width: 90%;
+
+}
+.title{
+    margin: 30px 0 0 0;
+}
+.ulDiv{
+    padding: 0 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.postLi{
+    box-sizing: border-box;
+    width: 20%;
+    height: 100px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(139, 0, 0, 0.59);
+    border: 1px solid black;
+
+}
+.btn3{
+    width: 150px;
+    margin: 10px;
+}
+
+.commentsListDiv{
+    padding: 0 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.commentLi{
+    list-style:none ;
+    box-sizing: border-box;
+    width: 25%;
+    height: 170px;
+    padding: 10px;
+    background: rgba(139, 0, 0, 0.59);
+    border: 1px solid black;
+}
