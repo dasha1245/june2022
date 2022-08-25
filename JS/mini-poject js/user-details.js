@@ -21,35 +21,38 @@ fetch(`https://jsonplaceholder.typicode.com/users/${idUser}`)
             }
         }
         newInfoBlock(user)
+        let divForButton = document.createElement('div')
+        divForButton.classList.add('divForButton')
+        let postsButton = document.createElement('button')
+        postsButton.classList.add('btn2')
+        postsButton.innerText = `Check details about posts`
+        document.body.appendChild(divForButton)
+        divForButton.appendChild(postsButton)
+        postsButton.onclick = function (){
+            let h2 = document.createElement('h2')
+            h2.innerText = 'Title of posts'
+            h2.classList.add('title')
+            document.body.appendChild(h2)
+            fetch(`https://jsonplaceholder.typicode.com/users/${idUser}/posts`)
+                .then(response => response.json())
+                .then(posts => {
+                    let titleList = document.createElement('ul')
+                    titleList.classList.add('ulDiv')
+                    for(const post of posts){
+                        let li = document.createElement('li')
+                        li.classList.add('postLi')
+                        li.innerText = post.title
+                        let postDetailButton = document.createElement('button')
+                        postDetailButton.classList.add('btn3')
+                        li.appendChild(postDetailButton)
+                        let a = document.createElement('a')
+                        a.innerText = 'Check more'
+                        a.href = `post-detail.html?id=${post.id}`
+                        postDetailButton.appendChild(a)
+                        titleList.appendChild(li)
+                    }
+                    document.body.appendChild(titleList)
+                })
+        }
+
     })
-let divForButton = document.getElementsByClassName('divForButton')[0]
-let postsButton = document.createElement('button')
-postsButton.classList.add('btn2')
-postsButton.innerText = `Check details about posts`
-divForButton.appendChild(postsButton)
-postsButton.onclick = function (){
-    let h2 = document.createElement('h2')
-    h2.innerText = 'Title of posts'
-    h2.classList.add('title')
-    document.body.appendChild(h2)
-    fetch(`https://jsonplaceholder.typicode.com/users/${idUser}/posts`)
-        .then(response => response.json())
-        .then(posts => {
-            let titleList = document.createElement('ul')
-            titleList.classList.add('ulDiv')
-            for(const post of posts){
-                let li = document.createElement('li')
-                li.classList.add('postLi')
-                li.innerText = post.title
-                let postDetailButton = document.createElement('button')
-                postDetailButton.classList.add('btn3')
-                li.appendChild(postDetailButton)
-                let a = document.createElement('a')
-                a.innerText = 'Check more'
-                a.href = `post-detail.html?id=${post.id}`
-                postDetailButton.appendChild(a)
-                titleList.appendChild(li)
-            }
-            document.body.appendChild(titleList)
-        })
-}

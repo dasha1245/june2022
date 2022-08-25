@@ -29,8 +29,6 @@
 }
 .divForButton{
     width: 100%;
-    position: absolute;
-    top: 87%;
     display: flex;
     justify-content: center;
 }
