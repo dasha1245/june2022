@@ -37,10 +37,10 @@ fetch(`https://jsonplaceholder.typicode.com/users/${idUser}`)
                 .then(response => response.json())
                 .then(posts => {
                     let titleList = document.createElement('ul')
-                    titleList.classList.add('ulDiv')
+                    titleList.classList.add('ulDiv', 'wrap')
                     for(const post of posts){
                         let li = document.createElement('li')
-                        li.classList.add('postLi')
+                        li.classList.add('postLi', 'background', 'border')
                         li.innerText = post.title
                         let postDetailButton = document.createElement('button')
                         postDetailButton.classList.add('btn3')

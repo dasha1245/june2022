@@ -8,7 +8,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
         for (const user of users) {
             let mainDiv = document.getElementsByClassName('main')[0]
             let eachUser = document.createElement('div')
-            eachUser.classList.add('user')
+            eachUser.classList.add('user', 'background', 'border')
             eachUser.innerText = `${user.id} ${user.name}`
             let eachUserBtn = document.createElement('button')
             eachUserBtn.classList.add('btn1')
